@@ -1,0 +1,24 @@
+{
+  "name": "minds",
+  "displayName": "Minds",
+  "version": "0.1.0",
+  "description": "Connect to Minds with a browser sign-in: the member tools of the Minds MCP server (your context, notifications, posts and search, and everyday social actions) plus a skill for checking the connection",
+  "author": {
+    "name": "Minds",
+    "url": "https://www.minds.com"
+  },
+  "homepage": "https://build.minds.com",
+  "repository": "https://github.com/recursivlabs/agent-plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "minds",
+    "social",
+    "mcp"
+  ],
+  "mcpServers": {
+    "minds": {
+      "type": "http",
+      "url": "https://api.minds.com/mcp/minds"
+    }
+  }
+}

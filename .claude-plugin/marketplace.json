@@ -1,0 +1,22 @@
+{
+  "name": "minds-plugins",
+  "description": "Plugins that connect AI coding tools to Minds and Recursiv",
+  "owner": {
+    "name": "Minds",
+    "url": "https://www.minds.com"
+  },
+  "plugins": [
+    {
+      "name": "minds",
+      "source": "./plugins/minds",
+      "description": "Connect to Minds with a browser sign-in: the member tools of the Minds MCP server (your context, notifications, posts and search, and everyday social actions) plus a skill for checking the connection",
+      "category": "social"
+    },
+    {
+      "name": "recursiv",
+      "source": "./plugins/recursiv",
+      "description": "Connect to Recursiv with a browser sign-in: the everyday tools of the Recursiv MCP server (tasks, agents, projects, deployments, memory, data and integrations) plus a skill for checking the connection",
+      "category": "development"
+    }
+  ]
+}
